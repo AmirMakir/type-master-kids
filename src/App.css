@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('./components/images/background.jpg');
+
+
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .game-title {
+    font-size: 2.5rem;
+  }
+
+  .features {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .instructions {
+    flex-direction: column;
+  }
+
+  .word-display {
+    font-size: 2.5rem;
+  }
+
+  .type-input {
+    font-size: 1.5rem;
+  }
+
+  .levels-grid {
+    grid-template-columns: 1fr;
+  }
+}

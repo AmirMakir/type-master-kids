@@ -1,0 +1,107 @@
+.tutorial-practice-card {
+    background: white;
+    border-radius: 30px;
+    padding: 60px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.practice-progress-bar {
+    width: 100%;
+    height: 12px;
+    background: #e2e8f0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.practice-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    transition: width 0.5s;
+}
+
+.practice-instruction {
+    font-size: 1.5rem;
+    color: #475569;
+    margin-bottom: 30px;
+}
+
+.practice-letter-display {
+    font-size: 8rem;
+    font-weight: 700;
+    color: #667eea;
+    margin: 40px 0;
+    font-family: 'Courier New', monospace;
+    animation: letterBounce 1s infinite;
+}
+
+@keyframes letterBounce {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+.practice-hidden-input {
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.practice-feedback {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 15px;
+    animation: fadeIn 0.3s;
+}
+
+.practice-feedback.success {
+    color: #4ade80;
+    background: #f0fdf4;
+}
+
+.practice-feedback.error {
+    color: #ef4444;
+    background: #fef2f2;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.practice-completed {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.completed-letter {
+    background: #4ade80;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    animation: popIn 0.3s;
+}
+
+@keyframes popIn {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+.practice-hint {
+    color: #94a3b8;
+    font-size: 1rem;
+    margin-top: 30px;
+    font-style: italic;
+}
+

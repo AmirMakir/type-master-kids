@@ -1,0 +1,113 @@
+.home-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-section {
+    background: white;
+    border-radius: 30px;
+    padding: 60px 40px;
+    max-width: 900px;
+    align-items: center;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+.game-title {
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.game-subtitle {
+    font-size: 1.5rem;
+    color: #64748b;
+    margin-bottom: 40px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature-icon {
+    display: block;
+    max-width: 80px;
+}
+#like {
+    margin-left: 2px;
+}
+.feature p {
+    font-size: 1.1rem;
+    color: #475569;
+    font-weight: 600;
+}
+
+.start-button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 20px 60px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.start-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+}
+.start-button:focus {
+    outline: none;
+}
+.about-section h2 {
+    font-size: 2rem;
+    color: #1e293b;
+    margin-bottom: 30px;
+}
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.instruction-step {
+    text-align: center;
+}
+
+.step-number {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #764ba2;
+    color: white;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.step-number:hover {
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    transform: scale(1.02);
+}
+.instruction-step p {
+    color: #475569;
+    font-size: 1.1rem;
+}

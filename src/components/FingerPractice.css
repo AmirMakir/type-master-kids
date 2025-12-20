@@ -1,0 +1,56 @@
+.finger-practice {
+    margin: 30px 0;
+}
+
+.hands-display {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.hand {
+    text-align: center;
+}
+
+.hand h3 {
+    color: #1e293b;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.fingers {
+    display: flex;
+    gap: 15px;
+}
+
+.finger-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.finger-key {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.finger-key:hover {
+    transform: scale(1.1);
+}
+
+.finger-name {
+    color: #64748b;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+

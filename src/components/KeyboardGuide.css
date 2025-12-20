@@ -1,0 +1,57 @@
+.keyboard-guide {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 20px 60px;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.key {
+    background: #334155;
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    box-shadow: 0 4px 0 #0f172a;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.key:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 0 #0f172a;
+}
+
+.home-row-key {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+.bump {
+    position: absolute;
+    bottom: 5px;
+    font-size: 0.8rem;
+    color: #fbbf24;
+}
+
+.spacebar {
+    width: 300px;
+    font-size: 1rem;
+}
