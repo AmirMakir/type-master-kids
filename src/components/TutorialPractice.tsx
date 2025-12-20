@@ -65,6 +65,7 @@ const TutorialPractice = ({onComplete}: TutorialPracticeProps) => {
                 className="practice-hidden-input"
                 onKeyDown={handleKeyPress}
                 autoFocus
+                onBlur={() => inputRef.current?.focus()}
             />
 
             {feedback && (
