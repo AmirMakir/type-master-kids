@@ -2,7 +2,8 @@
 
 ## What is this?
 
-It's a simple game where kids type words on the screen before time runs out. I made it colorful and fun because, honestly, learning to type can be pretty boring otherwise.
+It's a simple gam
+e where kids type words on the screen before time runs out. I made it colorful and fun because, honestly, learning to type can be pretty boring otherwise.
 
 The game has:
 - A tutorial that shows kids where to put their fingers
@@ -23,16 +24,60 @@ npm start
 
 It'll open in your browser.
 
-## How does it work?
 
-Pretty straightforward:
-1. you pick a level
-2. type the words you see
-3. try to beat the timer
+# How It Works?
+The application flow is simple and user-friendly, guiding the user step by step from onboarding to performance review.
 
-The faster and more accurate you are, the more points you get. There's also a streak system that gives you bonus points if you're on a roll.
+## 1. Welcome Screen
+When the application starts, the user is presented with a Welcome screen that introduces the app and sets the context for the learning experience.
 
+
+![img_6.png](src/components/images/for_readme/img_6.png)
+
+## 2. Tutorial
+If the user has not completed the tutorial yet, the app automatically redirects them to a Tutorial section. This tutorial explains the core mechanics and interaction rules of the application.
+
+
+![img.png](src/components/images/for_readme/img.png)
+![img_1.png](src/components/images/for_readme/img_1.png)
+
+## 3. Practice Test
+After completing the tutorial, the user is given a practice test. This step allows them to apply what they have learned in a controlled environment before progressing further.
+
+
+![img_2.png](src/components/images/for_readme/img_2.png)
+
+## 4. Levels List
+Once the tutorial and practice test are completed, the user gains access to the Levels List. Each level displays the following information:
+- Level name
+- Level ID
+- Difficulty 
+- Time limit
+- Description
+
+
+![img_3.png](src/components/images/for_readme/img_3.png)
+
+## 5. Typing Practice
+By selecting a level, the user enters a typing practice session. The task is to accurately retype the word or text displayed on the screen within the given constraints.
+
+
+![img_4.png](src/components/images/for_readme/img_4.png)
+
+## 6. Results and Review
+After completing a level, the user is shown a results screen summarizing their performance. This review includes:
+- Score
+- Rating
+- Detailed score breakdown
+- From this screen, the user can:
+- Retry the level
+- Return to the levels list
+- Proceed to the next level
+
+
+![img_7.png](src/components/images/for_readme/img_7.png)
 ## Project Structure
+
 ```
 type-master-kids/
 ├── public/

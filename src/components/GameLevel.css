@@ -158,6 +158,7 @@
     text-align: center;
     font-family: 'Courier New', monospace;
     transition: border-color 0.3s;
+    caret-color: transparent;
 }
 
 .type-input:focus {

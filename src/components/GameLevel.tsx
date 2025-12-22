@@ -188,6 +188,7 @@ const GameLevel= ({level, onComplete, onQuit}: GameLevelProps) => {
                     placeholder="Start typing..."
                     autoComplete="off"
                     spellCheck="false"
+                    onBlur={() => inputRef.current?.focus()}
                 />
 
                 <div className="words-remaining">
