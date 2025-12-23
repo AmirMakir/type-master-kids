@@ -93,8 +93,8 @@ export const levels: Level[] = [
         id: 12,
         title: "Speed",
         difficulty: "hard",
-        words: ["erbium", "nanometer", "transdermal", "yttrium", "wavelength", "epidermal", "guinea", "jab"],
-        timeLimit: 35,
+        words: ["erbium", "nanometer", "transdermal", "yttrium", "wavelength", "epidermal", "guinea", "jab", "penetration", "aerospace"],
+        timeLimit: 30,
         description: "Type a lot of words!"
     }
 ];
