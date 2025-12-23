@@ -88,5 +88,13 @@ export const levels: Level[] = [
         words: ["pseudopseudohypoparathyroidism", "floccinaucinihilipilification", "antidisestablishmentarianism"],
         timeLimit: 30,
         description: "Type tremendous words!"
+    },
+    {
+        id: 12,
+        title: "Speed",
+        difficulty: "hard",
+        words: ["erbium", "nanometer", "transdermal", "yttrium", "wavelength", "epidermal", "guinea", "jab"],
+        timeLimit: 35,
+        description: "Type a lot of words!"
     }
 ];
